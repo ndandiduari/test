@@ -1,0 +1,29 @@
+## **********************************************************
+## CSV TEMPLATE FOR DRAWIO
+## **********************************************************
+## Configuration
+## **********************************************************
+# label: %step%<br><i style="color:gray;">%description%</i>
+# style: shape=%shape%; whiteSpace=wrap;html=1;rounded=1;fillColor=%fill%;strokeColor=%stroke%;
+# namespace: csvimport-
+# connect: {"from":"refs", "to":"id", "invert":true, "style":"curved=0;endArrow=blockThin;endFill=1;"}
+# width: auto
+# height: auto
+# padding: 15
+# ignore: id,shape,fill,stroke,refs
+# nodespacing: 60
+# levelspacing: 60
+# edgespacing: 40
+## **********************************************************
+## LAYOUT OPTONS
+# layout: auto
+## layout: verticalflow
+## layout: horizontalflow
+## CSV starts under this line
+## **********************************************************
+id,step,refs,description,fill,stroke,shape
+1,Hello World,,,#dae8fc,#6c8ebf,rectangle
+2,Am I alive?,1,,#fff2cc,#d6b656,rhombus
+3,Yes,2,,#d5e8d4,#82b366,ellipse
+4,No,2,,#f8cecc,#b85450,ellipse
+5,,3,,#fff2cc,#d6b656,mxgraph.basic.smiley
